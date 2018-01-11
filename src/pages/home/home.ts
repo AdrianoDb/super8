@@ -5,10 +5,12 @@ import { NavController } from 'ionic-angular';
   selector: 'page-home',
   templateUrl: 'home.html'
 })
+
 export class HomePage {
 
+ciccio: string;
   constructor(public navCtrl: NavController) {
-
+  	this.ciccio = "daje forte";
   }
 
 }
